@@ -1,6 +1,5 @@
 const calculation = (num) => {
-  const total = num * 2;
-  console.log(total);
+  return num * 2;
 }
 
-calculation(50);
+console.log(calculation(50));
